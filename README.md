@@ -34,8 +34,8 @@ A simple Node.js backend for user authentication using SQLite, with secure passw
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/laith977/simple-auth.git
+cd simple-auth
 ```
 
 2. Install dependencies
