@@ -47,7 +47,7 @@ npm install
 3. Initialize the SQLite database and create the users table
 
 ```bash
-node db/init.js
+node init-db.js
 ```
 
 4. Start the server
@@ -122,7 +122,7 @@ DATABASE_PATH=./db.sqlite3
 
 ## Code Overview
 
-- `db/init.js` - initializes the SQLite database and creates the users table
+- `init-db.js` - initializes the SQLite database and creates the users table
 - `controllers/AuthController.js` - handles registration, login, logout, and current user routes
 - `db.js` - SQLite database connection (not shown in snippet, but required)
 - `server.js` (or equivalent) - Express server setup with session middleware and routes (not shown in snippet)
